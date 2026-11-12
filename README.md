@@ -9,8 +9,12 @@ Er is maar 1 soort bloem, foto’s staan in de discord
 
 14,99 is de prijs en verzendingskosten
 2,99 is verzendingskost
-TODO: mensen moeten reviews kunnen geven na een bestelling
-TODO: Een algemeen email adres maken voor de mails (kan denk ik met yoho mail ofso)
-Makkelijkste is om payconic qr gewoon foto van te nemen en zo te betalen
+TODO: mensen moeten reviews kunnen geven na een bestelling (Samuel)
+TODO: favicon fixen (Samuel)
+TODO: Een algemeen email adres maken voor de mails (BRENT)
+TODO: popup met een payconic QR-code, zorg dat klanten hun naam in de beschrijving zet
+TODO: automatisch mail sturen na bestelling
+TODO: echte socials zetten bij contact op de website
+
 
 Bloemig.com is domeinnaam
