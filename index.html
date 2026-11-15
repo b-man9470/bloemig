@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <title>BLOEMIG – DIY Flower Box</title>
+    <title>BLOEMIG – DIY Bloemen Kit</title>
     <link rel="icon" type="image/png" href="icons/favicon(border).jpeg" />
     <link rel="apple-touch-icon" href="icons/favicon.png" />
     <link
@@ -522,12 +522,12 @@
       <div class="hero" id="home">
         <div class="wrap">
           <div>
-            <div class="eyebrow">DIY Flower Box</div>
+            <div class="eyebrow">DIY Bloemen kit</div>
             <h1>Een creatief cadeau dat blijvend is</h1>
             <p class="lead">
-              Met de BLOEMIG DIY Flower Box maak je zelf een boeket papieren
+              Met de BLOEMIG DIY Bloemen Kit maak je zelf een boeket papieren
               bloemen. Alle materialen en duidelijke instructies zitten in de
-              doos. De bloemen verwelken nooit.
+              enveloppe. De bloemen verwelken nooit.
             </p>
             <div class="acts">
               <a class="btn" href="#shop">Ontdek onze bloemen kit</a
@@ -675,11 +675,10 @@
 
           <div>
             <div class="eyebrow">Bestellen</div>
-            <h2 style="margin-bottom: 0.3em">DIY Flower Box</h2>
+            <h2 style="margin-bottom: 0.3em">DIY Bloemen Kit</h2>
             <div class="price">€14,99</div>
             <p class="note" style="margin: 10px 0 26px">
-              Incl. btw. Verzendkosten komen erbij, afhalen op de campus is
-              gratis.
+              Verzendkosten komen erbij, afhalen op de campus is gratis.
             </p>
             <p>
               Een complete kit om zelf een boeket papieren bloemen te maken,
@@ -689,15 +688,11 @@
             <dl>
               <div>
                 <dt>Papier</dt>
-                <dd>Pastelpapier van goede dikte, in perzik- en roze tinten</dd>
+                <dd>Normaal papier, in perzik- en roze tinten</dd>
               </div>
               <div>
                 <dt>Materiaal</dt>
                 <dd>Bloemendraad en tape</dd>
-              </div>
-              <div>
-                <dt>Instructies</dt>
-                <dd>Stap voor stap, met QR-codes naar korte video’s</dd>
               </div>
               <div>
                 <dt>Verpakking</dt>
@@ -747,7 +742,7 @@
               </div>
               <div class="sum" aria-live="polite">
                 <div>
-                  <span id="sA">1 × DIY Flower Box</span
+                  <span id="sA">1 × DIY Bloemen Kit</span
                   ><span id="sP">€19,95</span>
                 </div>
                 <div><span>Verzending</span><span id="sV">€2,99</span></div>
@@ -780,7 +775,7 @@
               blijft.
             </p>
             <p>
-              We ontwikkelen de DIY Flower Box zelf, van prototype tot
+              We ontwikkelen de DIY Bloemen kit zelf, van prototype tot
               verpakking. We testen papier, patronen en instructies tot iedereen
               er plezier aan beleeft.
             </p>
@@ -804,10 +799,7 @@
           <div>
             <div class="eyebrow">Contact</div>
             <h2>Vragen?</h2>
-            <p>
-              Over de box, een bestelling of een workshop? Stuur ons een
-              bericht.
-            </p>
+            <p>Over de box, een bestelling? Stuur ons een bericht.</p>
             <p>
               E-mail: <a href="mailto:info@bloemig.be">info@bloemig.be</a
               ><br />Instagram: <a href="#">@bloemig</a><br />Facebook:
@@ -865,7 +857,7 @@
         const campus =
           document.querySelector('[name=lev]:checked').value === 'campus';
         const v = campus ? 0 : 2.99;
-        $('sA').textContent = q + ' × DIY Flower Box';
+        $('sA').textContent = q + ' × DIY Bloemen Kit';
         $('sP').textContent = eur(q * 14.99);
         $('sV').textContent = campus ? 'Gratis' : eur(v);
         $('sT').textContent = eur(q * 14.99 + v);
