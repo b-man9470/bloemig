@@ -796,28 +796,53 @@
             <h2>Vragen?</h2>
             <p>Over de box, een bestelling? Stuur ons een bericht.</p>
             <p>
-              E-mail: <a href="mailto:info@bloemig.be">info@bloemig.be</a
+              E-mail: <a href="mailto:brent@depetter.eu">bloemig.info@gmail.com</a
               ><br />Instagram: <a href="#">@bloemig</a><br />Facebook:
               <a href="#">BLOEMIG</a>
             </p>
-            <p class="note">
-              E-mailadres en sociale links zijn voorlopig voorbeelden.
-            </p>
           </div>
+          
           <div>
-            <label class="l" for="cn">Naam</label
-            ><input type="text" id="cn" style="margin-bottom: 14px" />
-            <label class="l" for="cm">E-mailadres</label
-            ><input type="email" id="cm" style="margin-bottom: 14px" />
-            <label class="l" for="cb">Bericht</label
-            ><textarea id="cb" rows="4" style="margin-bottom: 16px"></textarea>
-            <button class="btn" id="verstuur" type="button">
-              Verstuur bericht
-            </button>
-            <div class="msg hide" id="cok" role="status">
-              Bedankt! We nemen snel contact met je op.
-            </div>
+            <form action="https://formsubmit.co/brent@depetter.eu" method="POST">
+          
+              <input type="hidden" name="_subject" value="Nieuw bericht via BLOEMIG website">
+              <input type="hidden" name="_template" value="table">
+              <input type="text" name="_honey" style="display:none">
+          
+              <label class="l" for="cn">Naam</label>
+              <input
+                type="text"
+                id="cn"
+                name="naam"
+                required
+                style="margin-bottom: 14px"
+              />
+          
+              <label class="l" for="cm">E-mailadres</label>
+              <input
+                type="email"
+                id="cm"
+                name="email"
+                required
+                style="margin-bottom: 14px"
+              />
+          
+              <label class="l" for="cb">Bericht</label>
+              <textarea
+                id="cb"
+                name="bericht"
+                rows="4"
+                required
+                style="margin-bottom: 16px"
+              ></textarea>
+          
+              <button class="btn" type="submit">
+                Verstuur bericht
+              </button>
+          
+            </form>
           </div>
+
         </div>
       </section>
     </main>
@@ -882,9 +907,6 @@
           '. Dit is een voorbeeldbestelling, er is niets betaald. Totaal: ' +
           $('sT').textContent +
           '.';
-      };
-      $('verstuur').onclick = () => {
-        $('cok').className = 'msg';
       };
     </script>
   </body>
