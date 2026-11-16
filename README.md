@@ -6,12 +6,11 @@ schoolproject van Jordi
 Uiteindelijk product is een bouwpakket voor bloemen (je krijgt onderdelen en dan maak je bloemen)
 Er is maar 1 soort bloem, foto’s staan in de discord
 
-
-* 14,99 is de prijs en verzendingskosten
-* 2,99 is verzendingskost
-* TODO: mensen moeten reviews kunnen geven na een bestelling (Samuel)
-* TODO: favicon fixen (Samuel)
-* TODO: Een algemeen email adres maken voor de mails (BRENT)
+* TODO: verander de prijs naar 12.99
+* TODO: Unizo vermelden met de zin die Yordi geeft
+* TODO: inclusief btw wegdoen
+* TODO: aan Yordi nog eens vragen voor een foto van de verpakking (gaat hij normaal 17/11 doen)
+* TODO: 
 * TODO: popup met een payconic QR-code, zorg dat klanten hun naam in de beschrijving zet
 * TODO: automatisch mail sturen na bestelling
 * TODO: echte socials zetten bij contact op de website
