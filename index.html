@@ -676,9 +676,9 @@
           <div>
             <div class="eyebrow">Bestellen</div>
             <h2 style="margin-bottom: 0.3em">DIY Bloemen Kit</h2>
-            <div class="price">€14,99</div>
+            <div class="price">€11,99</div>
             <p class="note" style="margin: 10px 0 26px">
-              Verzendkosten komen erbij, afhalen op de campus is gratis.
+              Verzendkosten komen erbij.
             </p>
             <p>
               Een complete kit om zelf een boeket papieren bloemen te maken,
@@ -707,11 +707,6 @@
                   <label
                     ><input type="radio" name="lev" value="post" checked /><span
                       >Thuis geleverd (€2,99)</span
-                    ></label
-                  >
-                  <label
-                    ><input type="radio" name="lev" value="campus" /><span
-                      >Afhalen op de campus (gratis)</span
                     ></label
                   >
                 </div>
@@ -878,7 +873,7 @@
           document.querySelector('[name=lev]:checked').value === 'post' &&
           !$('adr').value.trim()
         ) {
-          ok.textContent = 'Vul je leveradres in of kies afhalen op de campus.';
+          ok.textContent = 'Vul je leveradres in';
           return;
         }
         ok.textContent =
