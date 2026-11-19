@@ -177,6 +177,35 @@
         font-size: 1.05rem;
         margin-bottom: 2.2em;
       }
+      .charity-note {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        max-width: 560px;
+        margin: 22px 0 24px;
+        padding: 18px 20px;
+        background: #e9eadf;
+        border-left: 3px solid var(--sage);
+      }
+      .charity-note__heart {
+        flex: 0 0 auto;
+        color: var(--cocoa);
+        font-size: 1.65rem;
+        line-height: 1.15;
+      }
+      .charity-note strong {
+        display: block;
+        margin-bottom: 5px;
+        color: var(--cocoa);
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      .charity-note p {
+        margin: 0;
+        color: var(--mute);
+        font-size: 0.82rem;
+        line-height: 1.65;
+      }
       .acts {
         display: flex;
         gap: 14px;
@@ -612,6 +641,13 @@
           <div>
             <div class="eyebrow">DIY Bloemen kit</div>
             <h1>Een creatief cadeau dat blijvend is</h1>
+            <div class="charity-note">
+              <span class="charity-note__heart" aria-hidden="true">♡</span>
+              <div>
+                <strong>Met BLOEMIG geef je meer dan bloemen.</strong>
+                <p>De opbrengst van onze DIY Bloemen Kit gaat naar Make-A-Wish Belgium. Zo maken we samen dromen waar!</p>
+              </div>
+            </div>
             <p class="lead">
               Met de BLOEMIG DIY Bloemen Kit maak je zelf een boeket papieren
               bloemen. Alle materialen en duidelijke instructies zitten in de
