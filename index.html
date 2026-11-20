@@ -299,7 +299,7 @@
       }
       .thumbs {
         display: grid;
-        grid-template-columns: repeat(2, 90px);
+        grid-template-columns: repeat(4, 1fr);
         gap: 12px;
         margin-top: 12px;
       }
@@ -788,6 +788,27 @@
                 <img
                   src="./IMG_7285.JPG"
                   alt=""
+                /></button
+              ><button
+                type="button"
+                aria-pressed="false"
+                data-i="c"
+                data-fit="contain"
+                aria-label="Foto 3"
+              >
+                <img
+                  src="./extra_img_1.jpg"
+                  alt=""
+                /></button
+              ><button
+                type="button"
+                aria-pressed="false"
+                data-i="d"
+                aria-label="Foto 4"
+              >
+                <img
+                  src="./extra_img_2.jpg"
+                  alt=""
                 />
               </button>
             </div>
@@ -921,11 +942,14 @@
       const src = {
         a: './IMG_7285.JPG',
         b: './IMG_7283.JPG',
+        c: './extra_img_1.jpg',
+        d: './extra_img_2.jpg',
       };
       document.querySelectorAll('.thumbs button').forEach(
         (b) =>
           (b.onclick = () => {
             $('mainImg').src = src[b.dataset.i];
+            $('mainImg').style.objectFit = b.dataset.fit || '';
             document
               .querySelectorAll('.thumbs button')
               .forEach((x) => x.setAttribute('aria-pressed', x === b));
